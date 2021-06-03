@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Playfair+Display&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    padding: 20px;
+}
+
+.review1{
+    background-color: #140d0b;
+    color: #fef6e4;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    .pizza-photo {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .side-section {
+        width: 50%;
+        .about {
+            margin: 0 auto;
+            width: fit-content;
+            padding: 20px;
+            font-size: 20px;
+        }
+        
+        .author {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        .about h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 32px;
+            font-size: 2rem;
+        }
+        
+        .about p {
+            font-size: 1rem;
+            max-width: 50ch;
+        }
+        
+        .about button {
+            border: none;
+            background-color: #feb51c;
+            color: #140d0b;
+            font-weight: bold;
+            padding: 1em 1.5em;
+            font-size: 1rem;
+        }
+    }
+}
+
+.review2 {
+    background-color: #140d0b;
+    color: #fef6e4;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    .side-section {
+        width: 50%;
+        .about {
+            margin: 0 auto;
+            width: fit-content;
+            padding: 20px;
+            font-size: 20px;
+        }
+        
+        .author {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        .about h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 32px;
+            font-size: 2rem;
+        }
+        
+        .about p {
+            font-size: 1rem;
+            max-width: 50ch;
+        }
+        
+        .about button {
+            border: none;
+            background-color: #feb51c;
+            color: #140d0b;
+            font-weight: bold;
+            padding: 1em 1.5em;
+            font-size: 1rem;
+        }
+    }
+    .pizza-photo {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .review1 {
+        flex-wrap: wrap;
+        background-color:#140d0b;
+        .pizza-photo {
+            width: 100%;
+            order: 2;
+        }
+        .side-section {
+            width:100%;
+            order: 1;
+        }
+    }
+    .review2 {
+        flex-wrap: wrap;
+        background-color:#140d0b;
+        .side-section {
+            width:100%;
+            order: 1;
+        }
+        .pizza-photo {
+            width: 100%;
+            order: 2;
+        }
+        
+    }
+    
+}

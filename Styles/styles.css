@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Playfair+Display&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 20px;
+}
+
+.review1 {
+  background-color: #140d0b;
+  color: #fef6e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.review1 .pizza-photo {
+  width: 50%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.review1 .side-section {
+  width: 50%;
+}
+
+.review1 .side-section .about {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.review1 .side-section .author {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.review1 .side-section .about h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-size: 2rem;
+}
+
+.review1 .side-section .about p {
+  font-size: 1rem;
+  max-width: 50ch;
+}
+
+.review1 .side-section .about button {
+  border: none;
+  background-color: #feb51c;
+  color: #140d0b;
+  font-weight: bold;
+  padding: 1em 1.5em;
+  font-size: 1rem;
+}
+
+.review2 {
+  background-color: #140d0b;
+  color: #fef6e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.review2 .side-section {
+  width: 50%;
+}
+
+.review2 .side-section .about {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.review2 .side-section .author {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.review2 .side-section .about h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-size: 2rem;
+}
+
+.review2 .side-section .about p {
+  font-size: 1rem;
+  max-width: 50ch;
+}
+
+.review2 .side-section .about button {
+  border: none;
+  background-color: #feb51c;
+  color: #140d0b;
+  font-weight: bold;
+  padding: 1em 1.5em;
+  font-size: 1rem;
+}
+
+.review2 .pizza-photo {
+  width: 50%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 900px) {
+  .review1 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #140d0b;
+  }
+  .review1 .pizza-photo {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .review1 .side-section {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .review2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #140d0b;
+  }
+  .review2 .side-section {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .review2 .pizza-photo {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
