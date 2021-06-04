@@ -169,4 +169,10 @@ nav {
             order: 2;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .review2 .pizza-photo {
+    height: auto;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
